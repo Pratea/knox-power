@@ -1,0 +1,40 @@
+module KnoxPower
+{
+    imports
+    {
+        Base
+    }
+
+    /* Quadros de energia (caixa ainda nao instalada). Instalar: botao direito
+       numa parede de um predio, com Eletricidade 3 e chave de fenda. */
+
+    item PowerPanelSmall
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = KnoxPowerPanelSmall,
+        MetalValue = 30.0,
+        Tooltip = Tooltip_KnoxPower_PowerPanel,
+    }
+
+    item PowerPanelMedium
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = KnoxPowerPanelMedium,
+        MetalValue = 60.0,
+        Tooltip = Tooltip_KnoxPower_PowerPanel,
+    }
+
+    item PowerPanelLarge
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 4.5,
+        Icon = KnoxPowerPanelLarge,
+        MetalValue = 90.0,
+        Tooltip = Tooltip_KnoxPower_PowerPanel,
+    }
+}

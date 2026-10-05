@@ -1,0 +1,4 @@
+# binarios do jogo: nunca converter quebra de linha
+*.pack binary
+*.tiles binary
+*.png binary

@@ -1,0 +1,67 @@
+module KnoxPower
+{
+    imports
+    {
+        Base
+    }
+
+    craftRecipe MakePowerPanelSmall
+    {
+        timedAction = DismantleElectrical,
+        time = 150,
+        SkillRequired = Electricity:3,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        xpAward = Electricity:10,
+        inputs
+        {
+            item 1 [Base.SmallSheetMetal] flags[NoBrokenItems],
+            item 3 [Base.ElectricWire] flags[NoBrokenItems],
+            item 1 tags[base:screwdriver] mode:keep flags[NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 KnoxPower.PowerPanelSmall,
+        }
+    }
+
+    craftRecipe MakePowerPanelMedium
+    {
+        timedAction = DismantleElectrical,
+        time = 250,
+        SkillRequired = Electricity:3,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        xpAward = Electricity:20,
+        inputs
+        {
+            item 2 [Base.SmallSheetMetal] flags[NoBrokenItems],
+            item 6 [Base.ElectricWire] flags[NoBrokenItems],
+            item 1 tags[base:screwdriver] mode:keep flags[NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 KnoxPower.PowerPanelMedium,
+        }
+    }
+
+    craftRecipe MakePowerPanelLarge
+    {
+        timedAction = DismantleElectrical,
+        time = 350,
+        SkillRequired = Electricity:3,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        xpAward = Electricity:30,
+        inputs
+        {
+            item 1 [Base.SheetMetal] flags[NoBrokenItems],
+            item 9 [Base.ElectricWire] flags[NoBrokenItems],
+            item 1 tags[base:screwdriver] mode:keep flags[NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 KnoxPower.PowerPanelLarge,
+        }
+    }
+}

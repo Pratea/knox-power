@@ -1,0 +1,5 @@
+# Python
+__pycache__/
+*.pyc
+# previa gerada pelo tools/build_art.py (so pra conferir a olho)
+art/preview_tiles.png

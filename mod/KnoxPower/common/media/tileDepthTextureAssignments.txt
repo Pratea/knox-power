@@ -1,0 +1,8 @@
+tileDepthTextureAssignments
+{
+    VERSION = 1,
+    knoxpower_01_0 = industry_02_193,
+    knoxpower_01_1 = industry_02_194,
+    knoxpower_01_2 = industry_02_184,
+    knoxpower_01_3 = industry_02_185,
+}

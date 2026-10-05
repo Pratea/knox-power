@@ -1,0 +1,8 @@
+name=Knox Power
+id=KnoxPower
+description=Power panels: carry a generator's power to a whole building or zone, with breakers to split it into circuits and save fuel.
+poster=poster.png
+modversion=1.0.0
+versionMin=42.21
+tiledef=knoxpower 7319
+pack=KnoxPower
